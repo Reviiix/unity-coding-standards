@@ -61,3 +61,4 @@ Each project records its target platform (and anything else project-specific) in
 - Before editing, check that `git status` is clean, then branch off `develop`: `feature/<short-name>`, or `bugfix/`, `release/` or `hotfix/` as appropriate. Never commit directly to `develop` or `main`.
 - **One commit per change**, each with a message saying what changes and why. Stage per logical change, hunk by hunk when one file holds several changes.
 - Leave finished branches unmerged for review. Never push or merge unless asked.
+- Tag each unity editor version change.
