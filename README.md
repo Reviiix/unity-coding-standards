@@ -62,3 +62,7 @@ Each project records its target platform (and anything else project-specific) in
 - **One commit per change**, each with a message saying what changes and why. Stage per logical change, hunk by hunk when one file holds several changes.
 - Leave finished branches unmerged for review. Never push or merge unless asked.
 - Tag each unity editor version change.
+
+## Documentation
+
+- Keep the README up to date and human readable aswell as any agent file (like a CLAUDE.md).
