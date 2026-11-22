@@ -60,9 +60,15 @@ Each project records its target platform (and anything else project-specific) in
 
 - Before editing, check that `git status` is clean, then branch off `develop`: `feature/<short-name>`, or `bugfix/`, `release/` or `hotfix/` as appropriate. Never commit directly to `develop` or `main`.
 - **One commit per change**, each with a message saying what changes and why. Stage per logical change, hunk by hunk when one file holds several changes.
+- Commit messages to contain subjects and descriptions.
+- Do not leave a Co Authored tag in the commit.
 - Leave finished branches unmerged for review. Never push or merge unless asked.
 - Tag each unity editor version change.
+- If one person/agent is working on multiple branches in sequence and the previous work hasnt been merged into develop yet then just branch of the last branch to reduce the chance of merge conflicts with yourself (unless the feature is drastically unrealted to the last or could cause issues).
+- Re-prompt people for merges if no one is acting on your requests.
+- Me and my team use git fork as a GUI for git.
 
 ## Documentation
 
 - Keep the README up to date and human readable aswell as any agent file (like a CLAUDE.md).
+- Good commit messages with brief subjects but more information in the description.
