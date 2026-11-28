@@ -67,6 +67,7 @@ Each project records its target platform (and anything else project-specific) in
 - If one person/agent is working on multiple branches in sequence and the previous work hasnt been merged into develop yet then just branch of the last branch to reduce the chance of merge conflicts with yourself (unless the feature is drastically unrealted to the last or could cause issues).
 - Re-prompt people for merges if no one is acting on your requests.
 - Me and my team use git fork as a GUI for git.
+- Add one GitHub issue form. Make it ask for helpful information but do not make it a barrier.
 
 ## Documentation
 
